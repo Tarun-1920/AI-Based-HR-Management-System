@@ -1,0 +1,65 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# Uploads (keep directory, ignore files)
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/node-document-service/uploads/*
+!backend/node-document-service/uploads/.gitkeep
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Package files
+*.egg
+*.whl
+
+# Frontend
+frontend/build/
+frontend/.env
+
+# Misc
+.cache/
+*.bak
+*.tmp
